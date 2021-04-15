@@ -15,19 +15,21 @@
 }
 .p2{
     color: white;
-    font-size: 80px;
+    font-size: 75px;
     font-family:cursive;
     text-align: center;
    
 }
 .pp{ 
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
     text-align: center;
 }
-.msp{
-    width: 350px;
-    margin-top: 250px;
-    margin-left: 50px;
+
+.msp2{
+    width: 330px;
+    margin-top: 130px;
+    margin-left: 90px;
+
 }
