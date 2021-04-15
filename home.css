@@ -1,0 +1,12 @@
+.background{
+    background-color: #4E4E4E;
+}
+.d1{
+    margin-top: 10%;
+    margin-right: 7%; 
+    height: 350px; 
+    width: 350px; 
+    float: right; 
+    border-style: solid; 
+    border-width: 10px; border-color: #53ECFE;
+}
