@@ -1,0 +1,35 @@
+.background{
+    background-color: #100c08;
+  
+}
+.d1{
+    margin-top: 10%;
+    margin-right: 7%; 
+    height: 350px; 
+    width: 350px; 
+    float: right; 
+    border-style: solid; 
+    border-width: 10px; border-color: #53ECFE;
+    box-shadow: 0 0 7px 7px;
+    color:cornflowerblue;
+}
+.p2{
+    color: white;
+    font-size: 75px;
+    font-family:cursive;
+    text-align: center;
+   
+}
+.pp{ 
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.msp2{
+    width: 330px;
+    margin-top: 130px;
+    margin-left: 90px;
+
+}
