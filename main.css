@@ -1,0 +1,61 @@
+.navbar{
+    background-color: black;
+}
+
+.navimg{
+    width: 270px;
+    height: 60px;
+}
+
+.navbar-brand{
+   justify-content: flex-start;
+   margin-left: 20px
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    background-color: black;
+    margin-right: 25px
+}
+
+.nav-link{
+    color: lightgrey;
+    margin:10px;
+    font-size: 18px;
+    transition: transform .5s;  
+}
+
+.nav-link:hover{
+    color: lightskyblue;
+    transform: scale(1.1);
+    font-weight:bold;
+}
+
+.navbar-toggler:hover{
+    border-color: lightgray;
+}
+
+.navbar-toggler-icon{
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(211, 211, 211)' stroke-width='6' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu{
+    background-color:lightskyblue;
+}
+
+.dropdown-item{
+    background-color: lightskyblue;
+}
+
+.dropdown-item:hover{
+    background-color: black;
+    color: lightskyblue;   
+}
+
+.dropdown:hover>.dropdown-menu {
+display: block;}
+
+
+
+
