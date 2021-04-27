@@ -1,0 +1,48 @@
+body{
+    background-color: #100c08
+}
+
+.iconat{
+    margin: auto
+}
+
+ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 25px
+}
+
+ul li a {
+  width:60px;
+  height: 60px;
+  background-color:#53ECFE;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #100c08; 
+}
+
+ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index:3;
+  margin-top: 12px;
+    margin-left: 2px
+}
+
+ul li a:hover .icon {
+  transform: rotateY(360deg);
+}
+
+
+
