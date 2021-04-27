@@ -167,22 +167,25 @@ background-color: #1f2027;
 }
 .formbtn{
   background-color: #53ECFE;
-  margin-left: 25.5%;
+  margin-left: 24%;
   margin-top: 10px;
   color: #100c08;
   width: 250px;
 border-radius: 8px;
-  padding: 10px;
+  padding: 13px;
+  margin-bottom: 10px;
 }
 .formbtn:hover{
   background-color:#53ECFE ;
   color: #100c08;
   border: #53ECFE;
+  border-width: 0px;
   border-color: #53ECFE;
 
 }
 .formbtn:focus{  background-color:#53ECFE ;
   color: #100c08;
+  border-width: 0px;
 
 
 }
