@@ -26,7 +26,7 @@
 }
 
 .nav-link:hover{
-    color: lightskyblue;
+    color: #53ECFE;
     transform: scale(1.1);
     font-weight:bold;
 }
@@ -41,11 +41,11 @@
 }
 
 .dropdown-menu{
-    background-color:lightskyblue;
+    background-color:#53ECFE;
 }
 
 .dropdown-item{
-    background-color: lightskyblue;
+    background-color: #53ECFE;
 }
 
 .dropdown-item:hover{
