@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="navbar.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>MSP Official website</title>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <link rel="stylesheet" href="contact Us.css">
 </head>
 
 <body class="background">
@@ -90,26 +96,72 @@
   
 <br><br><br><br><br><br><br><br>
   <!---------------------------contact us---------------------------------------------------->
-  <section id="contact">
-    <div id="formDev">
-        <form method="POST" action="homepage.html">
-          
-            <input type="text" id="fName" value="" placeholder=" First Name..." />
-            
-            <input type="text" id="lName" value="" placeholder=" Last Name..." />
-          
-            <div class="col-75"><br>
-                <input type="email" id="email" value="" placeholder="Email address" />
-            </div>
-            <div class="col-25">
+  <section> <br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1 style="text-align: center; color:#53ECFE">CONTACT US</h1>
+                </div>
+            </div> <br>
+            <div class="row">
                 
+                <!--Ahmed Ebeid-->
+                <div class="col-md-6 col-sm-12 ">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 mb-2">
+                                <input type="text" class="form-control inpname" placeholder="First name">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control inpname" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12 col-sm-12 ">
+                                <input type="email" class="form-control inpname" placeholder="Email address">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 mt-2 ">
+                                <textarea class="form-control textarea_st" id="exampleFormControlTextarea1"
+                                    placeholder="Write your message"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-secondary btn-lg formbtn"><b>Send message</b> </button>
+
+                        </div>
+                    </form>
+                </div> <br>
+                
+
+                <!--Sara Sayed-->
+                <div class="col-md-6 col-sm-12">
+                    <div class="col-9 iconat">
+                        <h3 style="color:#53ECFE">NEED TO KNOW MORE IN DETAILS. GET IN TOUCH.</h3>
+                        <P style="color: white">You can contact us through our Facebook page or our account on Instagram or Twitter by clicking on one of the following icons.</P>
+                        <ul style="margin-right: auto">
+                            <li>
+                                <a href="https://www.facebook.com/MSPCU/" target="_blank">
+                                    <i class="fab fa-facebook-f icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/mspcu" target="_blank">
+                                    <i class="fab fa-twitter icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/mspcu/" target="_blank">
+                                    <i class="fab fa-instagram icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-75"><br>
-                <input type="text" id="number" value="" placeholder="write your message" />
-            </div>
-            <input id="submitButton" type="submit" value="send message" />
-        </form>
-          </div>
+        </div>
     </section>
   
 </body>
