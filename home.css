@@ -33,3 +33,40 @@
     margin-left: 90px;
 
 }
+.img1{
+    border-width: 10px;
+    border-color: #53ECFE;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border-style: solid;
+    text-align: center;
+}
+.img1:hover{
+    opacity: 0.5;
+}
+.line{
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid #53ECFE;
+}
+.border1{
+    width: 50px;
+    height: 20px !important;
+    border-bottom: 7px solid #53ECFE;
+    display: inline;
+}
+
+.middle {
+    opacity: 0;
+}
+.middle:hover {
+    opacity: 1;
+}
+.text {
+    color: white;
+}
+.container {
+    text-align: center;
+    width: 112px;
+}
