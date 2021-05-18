@@ -1,0 +1,116 @@
+/* --------------------------------------------Committees-Heads----------------------------------------------- */
+
+
+.Committees-Heads {
+    box-sizing:border-box
+  }
+  
+  .Committees-Heads-column {
+    float: left;
+    
+    padding: 5px;
+  }
+  
+  .Committees-Heads-row::after {
+    content: "";
+    clear:both;
+    display: table;
+  }
+  
+  .Committees-Heads-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      position: relative;
+      width: 50%;
+    }
+    
+ 
+    .Committees-Heads-image {
+      cursor:pointer;
+      float:left;
+      margin-top: 50px;
+      margin-left: 60%;
+      position: relative;
+      
+      border-radius: 50%;
+      box-shadow: 0 0 0 5px black , 0 0 0 10px  #22AFCF; 
+
+      flex-basis: 0%;
+
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .text {
+    font-size: 12px;
+    padding-top: 60px;
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .Committees-Heads-hr   {
+    border-width:0;
+    background-color:#22AFCF;
+    margin-left: 0%;
+    position: relative;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .Committees-Heads-container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .Committees-Heads-container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text2-1 {
+    background-color: #22afcf;
+    color: black;
+
+    font-size: 16px;
+    height:18px;
+    width: 60px;
+    margin-left: -30%;
+    margin-bottom: -40px;
+  }
+
+  .text2-2 {
+    background-color: #22afcf;
+    color: black;
+    
+    font-size: 14px;
+    height:16px;
+    width: 50px;
+    margin-left: -20%;
+    margin-bottom: -50px;
+  }
+
+  .text2-3 {
+    background-color: #22afcf;
+    color: black;
+    
+    font-size: 12px;
+    height:14px;
+    width: 40px;
+    margin-left: -60%;
+    margin-bottom: -40px;
+   
+  }
+
+/* ------------------------------------------------------------------------------------------- */
