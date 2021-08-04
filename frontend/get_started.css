@@ -32,7 +32,7 @@
 
 
 .nav-link:hover{
-    color: rgb(111,196,249);
+    color: #53ECFE;
     transform: scale(1.1);
     font-weight:bold;
 }
