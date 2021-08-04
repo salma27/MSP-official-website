@@ -73,7 +73,7 @@ display: block;}
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, black 50%, rgb(111,196,249) 50%);
+  background-image: linear-gradient(-60deg, black 50%, #53ECFE 50%);
   bottom:0;
   left:-50%;
   opacity:.7;
