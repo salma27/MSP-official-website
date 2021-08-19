@@ -33,3 +33,18 @@
     margin-left: 90px;
 
 }
+.zz{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family:sans-serif;
+    font-size: 25px;
+}
+.oc{
+    
+  margin-top: 20px;
+    height: 270px; 
+    width: 99%;  
+    border-style: solid; 
+    border-width: 3px; border-color: #53ECFE;
+}
