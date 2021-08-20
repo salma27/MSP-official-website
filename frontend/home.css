@@ -1,7 +1,11 @@
 .background{
-    background-color: #100c08;
-  
+    background-image: url(depositphotos_145959345-stock-photo-blank-black-gradient-texture-background.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 .d1{
     margin-top: 10%;
     margin-right: 7%; 

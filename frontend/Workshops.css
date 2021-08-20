@@ -6,10 +6,6 @@
   box-sizing:border-box
 }
 
-.workshops-column {
-  float: left;
-  padding:0px;
-}
 .workshops-row::after 
 {
   content: " ";
@@ -34,25 +30,23 @@
   margin-left: 0%;
   margin-bottom: 20px;
   display: block;
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
   height: auto;
-  box-shadow: 0 0 0 3px black , 0 0 0 7px  #22AFCF; 
+  box-shadow: 0 0 0 3px black , 0 0 0 7px #53ECFE; 
 }    
 
 .workshops-Text{
   padding-left: 0%;
   margin-bottom: 10%;
   white-space: nowrap;
-  color:white
-}
-
-.workshops-Text2
-{
-  padding-left: 0%;
-  margin-bottom: 10%;
-  white-space: nowrap;
   color:white;
+  font-size: 23px;
+  font-weight: bold;    
 }
 
 .bs-example{margin: 20px;}
+
+a{
+    text-decoration: none; 
+}
