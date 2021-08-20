@@ -55,6 +55,7 @@
   .pp{
       font-size: 28px;  
     }
+}
     
 @media only screen and (max-width: 700px) {
   .p2 {
@@ -62,7 +63,9 @@
   }
   .pp{
       font-size: 25px;  
-    }  
+    } 
+}
+
 
 @media only screen and (max-width: 600px) {
   .p2 {
@@ -71,4 +74,5 @@
   .pp{
       font-size: 25px;  
     }
+}
 
