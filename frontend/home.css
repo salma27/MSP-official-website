@@ -144,56 +144,51 @@
     height: 150px;
     margin-left: 30%;
     float: left;
-    border: 3px solid black;
+    border: 3px solid #53ECFE;
     cursor:pointer;
     transition: transform .5s;
-    filter: grayscale(20%);
+    filter: grayscale(50%);
     transition: max-height 0.4s ease-out 0s;
+    background-color: #53ECFE;
     background-size: 10px;
     }
   
     .head_img:hover{
         filter: grayscale(0);
-        border: 1.5px solid #53ECFE;
-        background-size: 10px;
         transform: scale(1.05);
-        background-color: white;
         transition: max-height 0.4s linear 0.3s;
-
     }
 .member_img{
-border-radius: 50%;
-width: 120px;
-height: 100px;
-float: left;
-border: 3px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 100px;
+    float: left;
+    border: 3px solid #53ECFE;
     cursor:pointer;
     transition: transform .5s;
     filter: grayscale(50%);
     transition: max-height 0.4s ease-out 0s;
+    background-color: #53ECFE;
     background-size: 10px;
     
 }
 .member_img:hover{  filter: grayscale(0);
-    border: 1.5px solid #53ECFE;
-    background-size: 10px;
     transform: scale(1.05);
-    background-color: white;
-    transition: max-height 0.4s linear 0.3s;}
-.modal-title{
-
-color:#53ECFE;
-text-align: left;
-font-weight:bold;
-
-
+    transition: max-height 0.4s linear 0.3s;
 }
+
+
+.modal-title{
+    color:#53ECFE;
+    text-align: left;
+    font-weight:bold;
+}
+
+
 .txt{
     color: white;
-text-align: center;
-font-family:Arial, Helvetica, sans-serif;
-
-
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .member_role{
@@ -208,21 +203,15 @@ font-family:Arial, Helvetica, sans-serif;
 
 .hrr{
 color:#53ECFE;
-
-
-
 }
 
 .modal-header{
-border-bottom: 5px solid #53ECFE !important;
-
+border-bottom: 1px solid #53ECFE !important;
 background-color: #1f2027;
-
 }
 
 .modal-footer{
-    border-top:1px solid #53ECFE;
-
+    border-top:1px solid #53ECFE !important;
 }
 .desc{
     color: white;
@@ -231,3 +220,5 @@ background-color: #1f2027;
     padding: 5px;
     font-size: 20px;
 }
+
+
