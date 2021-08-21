@@ -1,11 +1,4 @@
 /* --------------------------------------------Committees-Heads----------------------------------------------- */
-.workshops
-{
-  border-style: solid; 
-  border-width: 6px;
-  border-color: #53ECFE;
-}
-
 .workshops-row::after 
 {
   content: " ";

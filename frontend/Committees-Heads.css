@@ -1,11 +1,4 @@
 /* --------------------------------------------board----------------------------------------------- */
-.board
-{
-  border-style: solid; 
-  border-width: 6px;
-  border-color: #53ECFE;
-}
-
 .board-row::after 
 {
   content: " ";
@@ -52,14 +45,6 @@ a{
 }
 
 /* --------------------------------------------Committees----------------------------------------------- */
-
-
-.Committees
-{
-  border-style: solid; 
-  border-width: 6px;
-  border-color: #53ECFE;
-}
 
 .Committees-row::after 
 {

@@ -76,3 +76,100 @@
     }
 }
 
+
+/*****************************************************animated border************************************/
+
+
+
+
+.box {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+[class^=line-] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+}
+[class^=line-]:before, [class^=line-]:after {
+  content: "";
+  position: absolute;
+}
+
+.line-x:before,
+.line-x:after {
+  width: 100%;
+  height: 7px;
+  background-image: linear-gradient(90deg, transparent, #53ECFE 20% 80%, transparent);
+}
+
+.line-x:before {
+  top: 0;
+  -webkit-animation: move-x 2s both infinite linear;
+          animation: move-x 2s both infinite linear;
+}
+
+.line-x:after {
+  bottom: 0;
+  animation: move-x 2s both infinite linear reverse;
+}
+
+@-webkit-keyframes move-x {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes move-x {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.line-y:before, .line-y:after {
+  width: 7px;
+  height: 100%;
+  background-image: linear-gradient(0deg, transparent, #53ECFE 20% 80%, transparent);
+}
+
+.line-y:before {
+  left: 0;
+  -webkit-animation: move-y 2s -1s both infinite linear;
+          animation: move-y 2s -1s both infinite linear;
+}
+
+.line-y:after {
+  right: 0;
+  animation: move-y 2s -1s both infinite linear reverse;
+}
+
+@-webkit-keyframes move-y {
+  from {
+    top: 100%;
+  }
+  to {
+    top: -100%;
+  }
+}
+
+@keyframes move-y {
+  from {
+    top: 100%;
+  }
+  to {
+    top: -100%;
+  }
+}
+
+
