@@ -215,7 +215,7 @@ color:#53ECFE;
 .modal-dialog{animation: mymove 3s infinite;
 }
 .modal-header{
-border-bottom:5px solid #53ECFE;
+border-bottom:1px solid #53ECFE !important;
 
 }
 @keyframes mymove {
