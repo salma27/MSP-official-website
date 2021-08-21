@@ -137,4 +137,100 @@
     -webkit-clip-path: polygon(0% 100%, 6px 100%, 6px 100%, 6px 100%, 6px 100%, 6px 100%, 6px 100%, 6px 100%, 6px 100%, 0% 100%);
   }
 }
+/*****************************************************it modal************************************/
+.head_img{
+    border-radius: 50%;
+    width: 170px;
+    height: 150px;
+    margin-left: 30%;
+    float: left;
+    border: 3px solid black;
+    cursor:pointer;
+    transition: transform .5s;
+    filter: grayscale(50%);
+    transition: max-height 0.4s ease-out 0s;
+    background-size: 10px;
+    }
+  
+    .head_img:hover{
+        filter: grayscale(0);
+        border: 1.5px solid #53ECFE;
+        background-size: 10px;
+        transform: scale(1.05);
+        background-color: white;
+        transition: max-height 0.4s linear 0.3s;
 
+    }
+.member_img{
+border-radius: 50%;
+width: 120px;
+height: 100px;
+float: left;
+border: 3px solid black;
+    cursor:pointer;
+    transition: transform .5s;
+    filter: grayscale(50%);
+    transition: max-height 0.4s ease-out 0s;
+    background-size: 10px;
+    
+}
+.member_img:hover{  filter: grayscale(0);
+    border: 1.5px solid #53ECFE;
+    background-size: 10px;
+    transform: scale(1.05);
+    background-color: white;
+    transition: max-height 0.4s linear 0.3s;}
+.modal-title{
+
+color:#53ECFE;
+text-align: left;
+font-weight:bold;
+
+
+}
+.txt{
+    color: white;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.member_role{
+
+    color: #53ECFE;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.hrr{
+color:#53ECFE;
+
+
+
+}
+.modal-dialog{animation: mymove 3s infinite;
+}
+.modal-header{
+border-bottom:1px solid #53ECFE;
+
+
+
+}
+@keyframes mymove {
+  0% {border: 4px solid #53ECFE;}
+}
+.modal-footer{
+    border-top:1px solid #53ECFE;
+
+}
+.desc{
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 20px;
+}
