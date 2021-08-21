@@ -30,8 +30,8 @@
   margin-left: 0%;
   margin-bottom: 20px;
   display: block;
-  height: 130px;
-  width: 130px;
+  height: 140px;
+  width: 140px;
   height: auto;
   box-shadow: 0 0 0 3px black , 0 0 0 7px #53ECFE; 
 }    
@@ -41,7 +41,7 @@
   margin-bottom: 10%;
   white-space: nowrap;
   color:white;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: bold;    
 }
 

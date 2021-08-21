@@ -1,4 +1,57 @@
-/* --------------------------------------------Committees-Heads----------------------------------------------- */
+/* --------------------------------------------board----------------------------------------------- */
+.board
+{
+  border-style: solid; 
+  border-width: 6px;
+  border-color: #53ECFE;
+}
+
+.board-row::after 
+{
+  content: " ";
+  clear:both;
+  display: table;
+}
+  
+.board-container
+{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align:center;
+  display:block;
+  border: 1px solid transparent;
+  cursor:pointer;
+}
+
+#board-image
+{ 
+  margin-top: 50px;
+  margin-left: 0%;
+  margin-bottom: 20px;
+  display: block;
+  height: 125px;
+  width: 125px;
+  height: auto;
+  box-shadow: 0 0 0 3px black , 0 0 0 7px #53ECFE; 
+}    
+
+.board-Text{
+  padding-left: 0%;
+  margin-bottom: 10%;
+  white-space: nowrap;
+  color:white;
+  font-size: 23px;
+  font-weight: bold;    
+}
+
+.bs-example{margin: 20px;}
+
+a{
+    text-decoration: none; 
+}
+
+/* --------------------------------------------Committees----------------------------------------------- */
 
 
 .Committees
@@ -32,8 +85,8 @@
   margin-left: 0%;
   margin-bottom: 20px;
   display: block;
-  height: 130px;
-  width: 130px;
+  height: 90px;
+  width: 90px;
   height: auto;
   box-shadow: 0 0 0 3px black , 0 0 0 7px #53ECFE; 
 }    
@@ -43,7 +96,7 @@
   margin-bottom: 10%;
   white-space: nowrap;
   color:white;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;    
 }
 
