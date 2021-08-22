@@ -141,7 +141,7 @@
 .head_img{
     border-radius: 50%;
     width: 170px;
-    height: 150px;
+    height: 170px;
     margin-left: 30%;
     float: left;
     border: 3px solid #53ECFE;
@@ -161,7 +161,7 @@
 .member_img{
     border-radius: 50%;
     width: 120px;
-    height: 100px;
+    height: 120px;
     float: left;
     border: 3px solid #53ECFE;
     cursor:pointer;
