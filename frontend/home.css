@@ -180,8 +180,9 @@
 
 .modal-title{
     color:#53ECFE;
-    text-align: left;
+    text-align: center !important;
     font-weight:bold;
+    width: 100%;
 }
 
 
@@ -220,17 +221,13 @@ background-color: #1f2027;
     padding: 5px;
     font-size: 20px;
 }
-#committ_tit{
-  padding-left: 41%
-}
 
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 900px) {
   .desc {
     font-size: 16px;
 
   }
-  #committ_tit{
-      padding-left: 30%
 
-  }
 }
+
