@@ -1,26 +1,16 @@
 .header1{
     color: #53ECFE;
-    padding-top: 120px;
-    padding-bottom: 45px;
-    margin-top: 40px;
 }
 
 .p1{
     color: #53ECFE;
+    margin-top: 30px;
 }
 
 .k2{
     color: rgb(255, 255, 255);
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 18PX;
 }
 
-.m1{
-  width: calc(100% / 2);
-  float: left;
-  display: inline;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  padding-left: 10px;
-  font-family: "Noto Sans", sans-serif;
-}
+
