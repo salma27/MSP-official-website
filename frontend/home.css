@@ -180,8 +180,9 @@
 
 .modal-title{
     color:#53ECFE;
-    text-align: left;
+    text-align: center !important;
     font-weight:bold;
+    width: 100%;
 }
 
 
@@ -189,6 +190,7 @@
     color: white;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
+    padding-top: 25px;
 }
 
 .member_role{
@@ -221,4 +223,14 @@ background-color: #1f2027;
     font-size: 20px;
 }
 
+
+@media only screen and (max-width: 714px) {
+  .desc {
+    font-size: 16px;
+
+  }
+  .head_img{
+    margin-left: 10%;
+  }
+}
 
