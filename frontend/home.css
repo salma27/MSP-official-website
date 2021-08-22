@@ -147,14 +147,13 @@
     border: 3px solid #53ECFE;
     cursor:pointer;
     transition: transform .5s;
-    filter: grayscale(50%);
+   
     transition: max-height 0.4s ease-out 0s;
     background-color: #53ECFE;
     background-size: 10px;
     }
   
     .head_img:hover{
-        filter: grayscale(0);
         transform: scale(1.05);
         transition: max-height 0.4s linear 0.3s;
     }
@@ -166,13 +165,13 @@
     border: 3px solid #53ECFE;
     cursor:pointer;
     transition: transform .5s;
-    filter: grayscale(50%);
+    
     transition: max-height 0.4s ease-out 0s;
     background-color: #53ECFE;
     background-size: 10px;
     
 }
-.member_img:hover{  filter: grayscale(0);
+.member_img:hover{
     transform: scale(1.05);
     transition: max-height 0.4s linear 0.3s;
 }
