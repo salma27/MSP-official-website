@@ -147,7 +147,6 @@
     border: 3px solid #53ECFE;
     cursor:pointer;
     transition: transform .5s;
-   
     transition: max-height 0.4s ease-out 0s;
     background-color: #53ECFE;
     background-size: 10px;
@@ -155,7 +154,7 @@
   
     .head_img:hover{
         transform: scale(1.05);
-        transition: max-height 0.4s linear 0.3s;
+        transition: max-height 0.s linear 0.3s;
     }
 .member_img{
     border-radius: 50%;
@@ -164,8 +163,7 @@
     float: left;
     border: 3px solid #53ECFE;
     cursor:pointer;
-    transition: transform .5s;
-    
+    transition: transform .5s; 
     transition: max-height 0.4s ease-out 0s;
     background-color: #53ECFE;
     background-size: 10px;
