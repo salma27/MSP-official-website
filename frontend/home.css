@@ -220,5 +220,17 @@ background-color: #1f2027;
     padding: 5px;
     font-size: 20px;
 }
+#committ_tit{
+  padding-left: 41%
+}
 
+@media only screen and (max-width: 800px) {
+  .desc {
+    font-size: 16px;
 
+  }
+  #committ_tit{
+      padding-left: 30%
+
+  }
+}
