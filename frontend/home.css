@@ -234,10 +234,11 @@ background-color: #1f2027;
 }
 .desc{
     color: white;
-    text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 5px;
+    padding: 10px;
     font-size: 20px;
+    list-style-position: inside;
+    list-style-type: square;
 }
 
 #head_role{
