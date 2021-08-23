@@ -193,6 +193,10 @@
     transform: scale(1.05);
     transition: max-height 0.4s linear 0.3s;
 }
+.inst_img:hover{
+  transform: scale(1.05);
+  transition: max-height 0.4s linear 0.3s;
+}
 
 
 .modal-title{
