@@ -268,9 +268,12 @@ background-color: #1f2027;
 
 .txt{
   font-size: large;
-
+  padding-top: 200px;
+  padding-right: 40px;
 }
-
+.member_role{
+  padding-right: 40px;
+}
 
 
 
