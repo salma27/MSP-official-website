@@ -49,16 +49,21 @@ ul li a:hover .icon {
 background-color: #1f2027;
 height: 50px;
 border-color: #1f2027;
+color: white;
+font-size: 19px;
+
 }
 .inpname:focus{
 background-color: #1f2027;
 
   border-color: #53ECFE;
   border-width: 1px;
+  color: white;
+
 
 }
 .textarea_st{
-  
+  color: white;
   background-color: #1f2027;
   height: 300px;
   border-color: #1f2027; 
@@ -67,7 +72,7 @@ background-color: #1f2027;
 }
 .textarea_st:focus{
   background-color: #1f2027;
-
+  color: white;
   border-color: #53ECFE;
   border-width: 1px;
 
