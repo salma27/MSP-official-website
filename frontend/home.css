@@ -176,6 +176,19 @@
     background-size: 10px;
     
 }
+.inst_img{
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  float: left;
+  border: 3px solid #53ECFE;
+  cursor:pointer;
+  transition: transform .5s; 
+  transition: max-height 0.4s ease-out 0s;
+  background-color: #53ECFE;
+  background-size: 10px;
+  
+}
 .member_img:hover{
     transform: scale(1.05);
     transition: max-height 0.4s linear 0.3s;
