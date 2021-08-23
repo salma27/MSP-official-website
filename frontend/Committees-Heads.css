@@ -49,8 +49,8 @@
   padding-left: 0%;
   white-space: nowrap;
   color:white;
-  font-size: 27px;
-  font-weight:300;  
+  font-size: 25px;
+  font-weight:400;  
   font-style:italic;
   text-decoration: underline #53ECFE ;
   margin-bottom: -1%;
@@ -95,8 +95,8 @@ a{
   margin-left: 0%;
   margin-bottom: 20px;
   display: block;
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   height: auto;
   box-shadow: 0 0 0 3px black , 0 0 0 7px #53ECFE; 
 }    
