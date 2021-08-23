@@ -42,8 +42,21 @@
   color:white;
   font-size: 23px;
   font-weight: bold;    
+  padding-bottom: 5px;
 }
 
+.board-Textt{
+  padding-left: 0%;
+  white-space: nowrap;
+  color:white;
+  font-size: 27px;
+  font-weight:300;  
+  font-style:italic;
+  text-decoration: underline #53ECFE ;
+  margin-bottom: -1%;
+
+  
+}
 .bs-example{margin: 20px;}
 
 a{
