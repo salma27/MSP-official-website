@@ -1,0 +1,12 @@
+# MSP-official-website
+This is a website made for MSP student activity Cairo University
+
+# Used Tools:
+1. HTML
+2. CSS
+3. Bootstrap
+4. JavaScript
+
+# Interface:
+
+This is the first version ever made. All thanks to the IT Committee.
