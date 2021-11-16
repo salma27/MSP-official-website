@@ -10,3 +10,5 @@ This is a website made for MSP student activity Cairo University
 # Interface:
 
 This is the first version ever made. All thanks to the IT Committee.
+The video can be found in using this link:
+
