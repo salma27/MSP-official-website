@@ -12,4 +12,6 @@ This is a website made for MSP student activity Cairo University
 This is the first version ever made. All thanks to the IT Committee.
 The video can be found in using this link:
 
-https://drive.google.com/file/d/1SH5QyZ4XfFKqipPF1qzOmtjIm_VMGGHG/view?usp=sharing
+
+https://user-images.githubusercontent.com/36279740/142053744-6f21005d-4db5-498e-9c37-1bcc4b2e33bc.mp4
+
